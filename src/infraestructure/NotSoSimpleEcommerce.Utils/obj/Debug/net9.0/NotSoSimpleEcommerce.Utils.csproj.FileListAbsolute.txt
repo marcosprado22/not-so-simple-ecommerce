@@ -1,0 +1,12 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\bin\Debug\net9.0\NotSoSimpleEcommerce.Utils.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\bin\Debug\net9.0\NotSoSimpleEcommerce.Utils.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\bin\Debug\net9.0\NotSoSimpleEcommerce.Utils.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.Utils.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\NotSoSimpleEcommerce.Utils.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.Utils\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.Utils.dll

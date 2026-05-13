@@ -1,0 +1,13 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.SesHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SesHandler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.SesHandler\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.SesHandler.dll

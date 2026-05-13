@@ -1,0 +1,13 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\bin\Debug\net9.0\NotSoSimpleEcommerce.Shared.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\bin\Debug\net9.0\NotSoSimpleEcommerce.Shared.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\bin\Debug\net9.0\NotSoSimpleEcommerce.Shared.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.Shared.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\NotSoSimpleEcommerce.Shared.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.Shared\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.Shared.dll

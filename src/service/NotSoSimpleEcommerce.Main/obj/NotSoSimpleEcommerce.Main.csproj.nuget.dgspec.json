@@ -1,0 +1,783 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\service\\NotSoSimpleEcommerce.Main\\NotSoSimpleEcommerce.Main.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj",
+        "projectName": "NotSoSimpleEcommerce.Main.Domain",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\NotSoSimpleEcommerce.Order.Domain.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\NotSoSimpleEcommerce.Order.Domain.csproj"
+              },
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj"
+              },
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\NotSoSimpleEcommerce.S3Handler.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\NotSoSimpleEcommerce.S3Handler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\NotSoSimpleEcommerce.Order.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\NotSoSimpleEcommerce.Order.Domain.csproj",
+        "projectName": "NotSoSimpleEcommerce.Order.Domain",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\NotSoSimpleEcommerce.Order.Domain.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Order.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj"
+              },
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj"
+              },
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj"
+              },
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\NotSoSimpleEcommerce.SqsHandler.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\NotSoSimpleEcommerce.SqsHandler.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "MediatR.Contracts": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.IdentityModel.JsonWebTokens": {
+              "target": "Package",
+              "version": "[5.6.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj",
+        "projectName": "NotSoSimpleEcommerce.Shared",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Refit": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj",
+        "projectName": "NotSoSimpleEcommerce.Repositories",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\NotSoSimpleEcommerce.S3Handler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\NotSoSimpleEcommerce.S3Handler.csproj",
+        "projectName": "NotSoSimpleEcommerce.S3Handler",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\NotSoSimpleEcommerce.S3Handler.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.S3Handler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.S3": {
+              "target": "Package",
+              "version": "[3.7.107.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj",
+        "projectName": "NotSoSimpleEcommerce.SesHandler",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.SimpleEmail": {
+              "target": "Package",
+              "version": "[3.7.100.147, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\NotSoSimpleEcommerce.SqsHandler.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\NotSoSimpleEcommerce.SqsHandler.csproj",
+        "projectName": "NotSoSimpleEcommerce.SqsHandler",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\NotSoSimpleEcommerce.SqsHandler.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SqsHandler\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.SQS": {
+              "target": "Package",
+              "version": "[3.7.103.5, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj",
+        "projectName": "NotSoSimpleEcommerce.Utils",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\NotSoSimpleEcommerce.Utils.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Utils\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\service\\NotSoSimpleEcommerce.Main\\NotSoSimpleEcommerce.Main.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\service\\NotSoSimpleEcommerce.Main\\NotSoSimpleEcommerce.Main.csproj",
+        "projectName": "NotSoSimpleEcommerce.Main",
+        "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\service\\NotSoSimpleEcommerce.Main\\NotSoSimpleEcommerce.Main.csproj",
+        "packagesPath": "C:\\Users\\marco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\service\\NotSoSimpleEcommerce.Main\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\marco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj": {
+                "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AWSSDK.Extensions.NETCore.Setup": {
+              "target": "Package",
+              "version": "[3.7.7, )"
+            },
+            "AspNetCore.HealthChecks.UI.Client": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Autofac": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Autofac.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "MediatR.Extensions.Autofac.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.17.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Serilog.Enrichers.Environment": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Serilog.Exceptions": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.313/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

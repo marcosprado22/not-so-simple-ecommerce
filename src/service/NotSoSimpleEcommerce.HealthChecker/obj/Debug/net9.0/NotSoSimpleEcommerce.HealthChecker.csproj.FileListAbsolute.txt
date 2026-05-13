@@ -1,0 +1,8 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\service\NotSoSimpleEcommerce.HealthChecker\obj\Debug\net9.0\NotSoSimpleEcommerce.HealthChecker.sourcelink.json

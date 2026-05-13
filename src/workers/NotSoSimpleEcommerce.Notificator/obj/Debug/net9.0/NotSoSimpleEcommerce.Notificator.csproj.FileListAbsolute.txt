@@ -1,0 +1,9 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.Notificator\obj\Debug\net9.0\NotSoSimpleEcommerce.Notificator.sourcelink.json

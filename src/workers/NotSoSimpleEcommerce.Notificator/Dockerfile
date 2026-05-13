@@ -1,11 +1,11 @@
-FROM mcr.microsoft.com/dotnet/sdk:6.0-alpine as build
+FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
 WORKDIR /nsse-backend
 COPY . .
 RUN dotnet publish /nsse-backend/src/workers/NotSoSimpleEcommerce.Notificator/NotSoSimpleEcommerce.Notificator.csproj \
     -c Release \
     -o publish
 
-FROM mcr.microsoft.com/dotnet/aspnet:6.0-alpine
+FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine
 WORKDIR /nsse-backend
 COPY --from=build /nsse-backend/publish .
 EXPOSE 443

@@ -13,4 +13,4 @@ USER nginx
 HEALTHCHECK CMD curl --fail http://localhost:3000/ || exit 1
 
 EXPOSE 3000
-ENTRYPOINT ["nginx", "-g", "daemon off;"]
+ENTRYPOINT ["nginx", "-g", "daemon off;"] 

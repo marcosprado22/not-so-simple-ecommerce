@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "BxKLIl/bclU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.SesHandler\\NotSoSimpleEcommerce.SesHandler.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\awssdk.core\\3.7.107.8\\awssdk.core.3.7.107.8.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\awssdk.simpleemail\\3.7.100.147\\awssdk.simpleemail.3.7.100.147.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.0\\microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.0\\microsoft.extensions.logging.abstractions.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

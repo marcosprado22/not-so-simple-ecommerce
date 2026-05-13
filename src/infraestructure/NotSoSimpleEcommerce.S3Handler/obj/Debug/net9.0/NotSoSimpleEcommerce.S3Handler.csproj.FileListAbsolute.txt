@@ -1,0 +1,16 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\bin\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\bin\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\bin\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\bin\Debug\net9.0\NotSoSimpleEcommerce.Utils.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\bin\Debug\net9.0\NotSoSimpleEcommerce.Utils.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSim.86B29FE3.Up2Date
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.S3Handler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\NotSoSimpleEcommerce.S3Handler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infraestructure\NotSoSimpleEcommerce.S3Handler\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.S3Handler.dll

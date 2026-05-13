@@ -1,0 +1,9 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\workers\NotSoSimpleEcommerce.InvoiceGenerator\obj\Debug\net9.0\NotSoSimpleEcommerce.InvoiceGenerator.sourcelink.json

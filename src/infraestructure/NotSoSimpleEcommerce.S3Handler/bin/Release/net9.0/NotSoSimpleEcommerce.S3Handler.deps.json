@@ -1,0 +1,73 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "NotSoSimpleEcommerce.S3Handler/1.0.0": {
+        "dependencies": {
+          "AWSSDK.S3": "3.7.107.5",
+          "NotSoSimpleEcommerce.Utils": "1.0.0"
+        },
+        "runtime": {
+          "NotSoSimpleEcommerce.S3Handler.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.108.1": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.108.1"
+          }
+        }
+      },
+      "AWSSDK.S3/3.7.107.5": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.108.1"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.S3.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.107.5"
+          }
+        }
+      },
+      "NotSoSimpleEcommerce.Utils/1.0.0": {
+        "runtime": {
+          "NotSoSimpleEcommerce.Utils.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NotSoSimpleEcommerce.S3Handler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AWSSDK.Core/3.7.108.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kG+tKeJbhblvokQpM3tCy5J6iqNcIQ2tycMNn5C/ZCJCyDpPHgk3QGFxEVGrKrZqMxGlfifvz+fUy79pmlpkfw==",
+      "path": "awssdk.core/3.7.108.1",
+      "hashPath": "awssdk.core.3.7.108.1.nupkg.sha512"
+    },
+    "AWSSDK.S3/3.7.107.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TZkpgKteGxIWnFLljxvq2NRHQaCnPq7dRs0WcFUAE8KTW0blyvj6NomMDoRROhh2/R+orKYzggPmELzMgAQ08Q==",
+      "path": "awssdk.s3/3.7.107.5",
+      "hashPath": "awssdk.s3.3.7.107.5.nupkg.sha512"
+    },
+    "NotSoSimpleEcommerce.Utils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

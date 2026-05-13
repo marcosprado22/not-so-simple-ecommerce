@@ -1,0 +1,6 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\domains\NotSoSimpleEcommerce.IdentityServer.Domain\obj\Debug\net9.0\NotSoSimpleEcommerce.IdentityServer.Domain.sourcelink.json
