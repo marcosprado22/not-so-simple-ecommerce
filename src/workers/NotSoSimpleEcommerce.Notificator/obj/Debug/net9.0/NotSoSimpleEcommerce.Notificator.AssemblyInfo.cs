@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotSoSimpleEcommerce.Notificator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3d3913e887eff1a51f84f99fff618a0bf2f02df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f32b7feef7a97939ef14b74dd3a7590bc0371153")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotSoSimpleEcommerce.Notificator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotSoSimpleEcommerce.Notificator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

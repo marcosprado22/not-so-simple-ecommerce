@@ -20,27 +20,44 @@ Se precisar desenvolver localmente, considere usar uma VM Linux ou WSL2 com Dock
 
 ### Solução alternativa para problemas com MCR:
 
-Para resolver os problemas de EOF com MCR no Docker Desktop, você pode:
+Para resolver os problemas de EOF com MCR no Docker Desktop, você pode usar o Docker Engine dentro do WSL2.
 
-1. Instalar Docker Engine diretamente no WSL2:
-   ```bash
-   wsl -d Ubuntu -- sudo apt update && sudo apt install -y docker.io
-   ```
+#### Opção 1: usando Windows PowerShell ou CMD
 
-2. Configurar o Docker para usar o daemon do WSL2:
-   ```bash
-   echo 'export DOCKER_HOST=tcp://localhost:2375' >> ~/.bashrc
-   ```
+Execute a partir do terminal do Windows:
+```powershell
+wsl.exe -d Ubuntu -- sudo apt update && sudo apt install -y docker.io
+wsl.exe -d Ubuntu -- sudo service docker start
+```
 
-3. Iniciar o Docker no WSL2:
-   ```bash
-   sudo service docker start
-   ```
+Isso instala e inicia o Docker dentro da distribuição Ubuntu do WSL2.
+
+#### Opção 2: usando o shell Linux dentro do WSL
+
+Se você já estiver no terminal Ubuntu do WSL, execute diretamente:
+```bash
+sudo apt update && sudo apt install -y docker.io
+sudo service docker start
+```
+
+#### Configurar o Docker para usar o daemon do WSL2
+
+No shell Ubuntu, adicione o host do Docker ao seu perfil:
+```bash
+echo 'export DOCKER_HOST=tcp://localhost:2375' >> ~/.bashrc
+```
+
+Em seguida, recarregue o perfil ou abra um novo terminal:
+```bash
+source ~/.bashrc
+```
+
+Se `wsl.exe` não for reconhecido no PowerShell/CMD, confirme que você está usando o terminal do Windows e não o shell do Ubuntu.
 
 ### Status do projeto:
 
 - ✅ Dockerfile corrigido para usar tags válidas do .NET 9.0
-- ✅ Referências de projeto corrigidas (infraestructure → infraestructure)
+- ✅ Referências de projeto corrigidas (infrastructure → infrastructure)
 - ✅ Dependências de pacotes adicionadas (Microsoft.AspNetCore.Http)
 - ✅ Workflow do GitHub Actions criado para build na nuvem
 - ✅ Build local funcionando (execute `.\build-local.bat`)

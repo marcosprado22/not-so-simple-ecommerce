@@ -1,0 +1,13 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\bin\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.SnsHandler.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\NotSoSimpleEcommerce.SnsHandler.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.SnsHandler\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.SnsHandler.dll

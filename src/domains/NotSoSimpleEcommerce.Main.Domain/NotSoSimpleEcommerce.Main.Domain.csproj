@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\infraestructure\NotSoSimpleEcommerce.S3Handler\NotSoSimpleEcommerce.S3Handler.csproj" />
+    <ProjectReference Include="..\..\infrastructure\NotSoSimpleEcommerce.S3Handler\NotSoSimpleEcommerce.S3Handler.csproj" />
     <ProjectReference Include="..\NotSoSimpleEcommerce.Order.Domain\NotSoSimpleEcommerce.Order.Domain.csproj" />
     <ProjectReference Include="..\NotSoSimpleEcommerce.Shared\NotSoSimpleEcommerce.Shared.csproj" />
   </ItemGroup>

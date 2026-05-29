@@ -1,0 +1,13 @@
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\bin\Debug\net9.0\NotSoSimpleEcommerce.Repositories.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\bin\Debug\net9.0\NotSoSimpleEcommerce.Repositories.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\bin\Debug\net9.0\NotSoSimpleEcommerce.Repositories.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.csproj.AssemblyReference.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.AssemblyInfoInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.AssemblyInfo.cs
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.csproj.CoreCompileInputs.cache
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.sourcelink.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\refint\NotSoSimpleEcommerce.Repositories.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\NotSoSimpleEcommerce.Repositories.pdb
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\infrastructure\NotSoSimpleEcommerce.Repositories\obj\Debug\net9.0\ref\NotSoSimpleEcommerce.Repositories.dll

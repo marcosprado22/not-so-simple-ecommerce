@@ -341,6 +341,19 @@
           "buildTransitive/net8.0/System.Text.Json.targets": {}
         }
       },
+      "NotSoSimpleEcommerce.Repositories/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.0"
+        },
+        "compile": {
+          "bin/placeholder/NotSoSimpleEcommerce.Repositories.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotSoSimpleEcommerce.Repositories.dll": {}
+        }
+      },
       "NotSoSimpleEcommerce.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
@@ -936,6 +949,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "NotSoSimpleEcommerce.Repositories/1.0.0": {
+      "type": "project",
+      "path": "../../infrastructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj"
+    },
     "NotSoSimpleEcommerce.Shared/1.0.0": {
       "type": "project",
       "path": "../NotSoSimpleEcommerce.Shared/NotSoSimpleEcommerce.Shared.csproj",
@@ -946,6 +964,7 @@
     "net9.0": [
       "Microsoft.EntityFrameworkCore >= 9.0.0",
       "Microsoft.Extensions.Configuration.Binder >= 9.0.0",
+      "NotSoSimpleEcommerce.Repositories >= 1.0.0",
       "NotSoSimpleEcommerce.Shared >= 1.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.0"
     ]
@@ -977,6 +996,9 @@
           "projectReferences": {
             "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj": {
               "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Shared\\NotSoSimpleEcommerce.Shared.csproj"
+            },
+            "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infrastructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj": {
+              "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infrastructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj"
             }
           }
         }

@@ -22,9 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\infraestructure\NotSoSimpleEcommerce.Repositories\NotSoSimpleEcommerce.Repositories.csproj" />
-    <ProjectReference Include="..\..\infraestructure\NotSoSimpleEcommerce.SesHandler\NotSoSimpleEcommerce.SesHandler.csproj" />
-    <ProjectReference Include="..\..\infraestructure\NotSoSimpleEcommerce.SqsHandler\NotSoSimpleEcommerce.SqsHandler.csproj" />
+    <ProjectReference Include="..\..\infrastructure\NotSoSimpleEcommerce.Repositories\NotSoSimpleEcommerce.Repositories.csproj" />
+    <ProjectReference Include="..\..\infrastructure\NotSoSimpleEcommerce.SesHandler\NotSoSimpleEcommerce.SesHandler.csproj" />
+    <ProjectReference Include="..\..\infrastructure\NotSoSimpleEcommerce.SqsHandler\NotSoSimpleEcommerce.SqsHandler.csproj" />
     <ProjectReference Include="..\NotSoSimpleEcommerce.Shared\NotSoSimpleEcommerce.Shared.csproj" />
   </ItemGroup>
 

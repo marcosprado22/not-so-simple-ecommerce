@@ -33,7 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\domains\NotSoSimpleEcommerce.Main.Domain\NotSoSimpleEcommerce.Main.Domain.csproj" />
-    <ProjectReference Include="..\..\infraestructure\NotSoSimpleEcommerce.Repositories\NotSoSimpleEcommerce.Repositories.csproj" />
+    <ProjectReference Include="..\..\infrastructure\NotSoSimpleEcommerce.Repositories\NotSoSimpleEcommerce.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

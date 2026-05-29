@@ -1,9 +1,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0-alpine AS build
 WORKDIR /nsse-backend
 COPY . .
+RUN dotnet restore /nsse-backend/src/services/NotSoSimpleEcommerce.IdentityServer/NotSoSimpleEcommerce.IdentityServer.csproj
 RUN dotnet publish /nsse-backend/src/services/NotSoSimpleEcommerce.IdentityServer/NotSoSimpleEcommerce.IdentityServer.csproj \
     -c Release \
-    -o publish
+    -o publish \
+    --no-restore
 
 FROM mcr.microsoft.com/dotnet/aspnet:9.0-alpine
 WORKDIR /nsse-backend

@@ -6022,18 +6022,18 @@
     },
     "NotSoSimpleEcommerce.Repositories/1.0.0": {
       "type": "project",
-      "path": "../../infraestructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj",
-      "msbuildProject": "../../infraestructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj"
+      "path": "../../infrastructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.Repositories/NotSoSimpleEcommerce.Repositories.csproj"
     },
     "NotSoSimpleEcommerce.S3Handler/1.0.0": {
       "type": "project",
-      "path": "../../infraestructure/NotSoSimpleEcommerce.S3Handler/NotSoSimpleEcommerce.S3Handler.csproj",
-      "msbuildProject": "../../infraestructure/NotSoSimpleEcommerce.S3Handler/NotSoSimpleEcommerce.S3Handler.csproj"
+      "path": "../../infrastructure/NotSoSimpleEcommerce.S3Handler/NotSoSimpleEcommerce.S3Handler.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.S3Handler/NotSoSimpleEcommerce.S3Handler.csproj"
     },
     "NotSoSimpleEcommerce.SesHandler/1.0.0": {
       "type": "project",
-      "path": "../../infraestructure/NotSoSimpleEcommerce.SesHandler/NotSoSimpleEcommerce.SesHandler.csproj",
-      "msbuildProject": "../../infraestructure/NotSoSimpleEcommerce.SesHandler/NotSoSimpleEcommerce.SesHandler.csproj"
+      "path": "../../infrastructure/NotSoSimpleEcommerce.SesHandler/NotSoSimpleEcommerce.SesHandler.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.SesHandler/NotSoSimpleEcommerce.SesHandler.csproj"
     },
     "NotSoSimpleEcommerce.Shared/1.0.0": {
       "type": "project",
@@ -6042,13 +6042,13 @@
     },
     "NotSoSimpleEcommerce.SqsHandler/1.0.0": {
       "type": "project",
-      "path": "../../infraestructure/NotSoSimpleEcommerce.SqsHandler/NotSoSimpleEcommerce.SqsHandler.csproj",
-      "msbuildProject": "../../infraestructure/NotSoSimpleEcommerce.SqsHandler/NotSoSimpleEcommerce.SqsHandler.csproj"
+      "path": "../../infrastructure/NotSoSimpleEcommerce.SqsHandler/NotSoSimpleEcommerce.SqsHandler.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.SqsHandler/NotSoSimpleEcommerce.SqsHandler.csproj"
     },
     "NotSoSimpleEcommerce.Utils/1.0.0": {
       "type": "project",
-      "path": "../../infraestructure/NotSoSimpleEcommerce.Utils/NotSoSimpleEcommerce.Utils.csproj",
-      "msbuildProject": "../../infraestructure/NotSoSimpleEcommerce.Utils/NotSoSimpleEcommerce.Utils.csproj"
+      "path": "../../infrastructure/NotSoSimpleEcommerce.Utils/NotSoSimpleEcommerce.Utils.csproj",
+      "msbuildProject": "../../infrastructure/NotSoSimpleEcommerce.Utils/NotSoSimpleEcommerce.Utils.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6101,8 +6101,8 @@
             "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj": {
               "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\domains\\NotSoSimpleEcommerce.Main.Domain\\NotSoSimpleEcommerce.Main.Domain.csproj"
             },
-            "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj": {
-              "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infraestructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj"
+            "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infrastructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj": {
+              "projectPath": "C:\\Users\\marco\\workspace\\not-so-simple-ecommerce\\src\\infrastructure\\NotSoSimpleEcommerce.Repositories\\NotSoSimpleEcommerce.Repositories.csproj"
             }
           }
         }
