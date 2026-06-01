@@ -26,6 +26,7 @@ jobs:
     - name: Build and push Docker image
       uses: docker/build-push-action@v5
       with:
-        context: ./src/services/NotSoSimpleEcommerce.Main
+        context: .
+        file: src/services/NotSoSimpleEcommerce.Main/Dockerfile
         push: true
         tags: ${{ secrets.DOCKER_USERNAME }}/not-so-simple-ecommerce-main:latest

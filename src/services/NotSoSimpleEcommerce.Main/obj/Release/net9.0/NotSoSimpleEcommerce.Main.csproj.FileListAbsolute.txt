@@ -182,3 +182,9 @@ C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommer
 C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\obj\Release\net9.0\NotSoSimpleEcommerce.Main.pdb
 C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\obj\Release\net9.0\NotSoSimpleEcommerce.Main.genruntimeconfig.cache
 C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\obj\Release\net9.0\ref\NotSoSimpleEcommerce.Main.dll
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\web.config
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\appsettings.Development.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\appsettings.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\NotSoSimpleEcommerce.Main.deps.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\NotSoSimpleEcommerce.Main.runtimeconfig.json
+C:\Users\marco\workspace\not-so-simple-ecommerce\src\services\NotSoSimpleEcommerce.Main\bin\Release\net9.0\publish\NotSoSimpleEcommerce.Main.staticwebassets.endpoints.json
