@@ -61,4 +61,3 @@ Se `wsl.exe` não for reconhecido no PowerShell/CMD, confirme que você está us
 - ✅ Dependências de pacotes adicionadas (Microsoft.AspNetCore.Http)
 - ✅ Workflow do GitHub Actions criado para build na nuvem
 - ✅ Build local funcionando (execute `.\build-local.bat`)
-- ❌ Problema persistente com MCR no Docker Desktop local (use GitHub Actions)
