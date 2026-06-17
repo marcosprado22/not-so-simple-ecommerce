@@ -1,0 +1,48 @@
+networks:
+  nsse-network:
+    external: true
+
+services:
+
+  nsse.site.internal:
+   container_name: nsse.site.internal
+   image: nsse/site
+   ports:
+     - 3000:3000
+   build:
+     context: src/frontend
+     dockerfile: Dockerfile
+   networks:
+     - nsse-network
+
+  nsse.main.internal:
+    container_name: nsse.main.internal
+    image: nsse/main
+    ports:
+      - 5000:443
+    build:
+      context: .
+      dockerfile: src/services/NotSoSimpleEcommerce.Main/Dockerfile
+    env_file:
+      - ./.env
+    volumes:
+      - ${CERTIFICATES_HOST_PATH}:${CERTIFICATES_CONTAINER_PATH}
+      - ${AWS_CREDENTIALS_HOST_PATH}:${AWS_CREDENTIALS_CONTAINER_PATH}
+    networks:
+      - nsse-network
+
+  nsse.order.internal:
+   container_name: nsse.order.internal
+   image: nsse/order
+   ports:
+     - 5001:443
+   build:
+     context: .
+     dockerfile: src/services/NotSoSimpleEcommerce.Order/Dockerfile
+   env_file:
+     - ./.env
+   volumes:
+     - ${CERTIFICATES_HOST_PATH}:${CERTIFICATES_CONTAINER_PATH}
+     - ${AWS_CREDENTIALS_HOST_PATH}:${AWS_CREDENTIALS_CONTAINER_PATH}
+   networks:
+     - nsse-network

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotSoSimpleEcommerce.SnsHandler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7d7147daf55aba1cd5542af844a9062a860167b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a197c2a05e84f7d1abb950de3a3bdae4e7511149")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotSoSimpleEcommerce.SnsHandler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotSoSimpleEcommerce.SnsHandler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
