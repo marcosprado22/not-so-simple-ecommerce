@@ -1,63 +1,51 @@
-# Not So Simple Ecommerce
+Not So Simple Ecommerce
+Este é o repositório onde reside todo o código da aplicação not-so-simple-ecommerce. A aplicação é composta por 6 microserviços no backend (.NET) e um frontend em React, todos devidamente dockerizados.
 
-## Docker Build
+Este repositório deve ser utilizado para manipular as imagens das aplicações ou rodar a solução localmente.
 
-Devido a problemas de conectividade com o Microsoft Container Registry (MCR) no Docker Desktop, recomendamos usar GitHub Actions para construir as imagens Docker.
+🛠️ Configuração e Execução da Aplicação
+1. Infra Stack
+Primeiramente, execute o build da stack de infraestrutura, pois ela é a base para todas as demais stacks.
 
-### Como usar:
+Essa stack realiza a criação dos seguintes contêineres:
 
-1. Configure os secrets no repositório GitHub:
-   - `DOCKER_USERNAME`: Seu nome de usuário do Docker Hub
-   - `DOCKER_PASSWORD`: Seu token de acesso do Docker Hub
+LocalStack: Tecnologia utilizada para replicar localmente diversos serviços da AWS.
+Terraform: Utilizado para criar a infraestrutura local da AWS no LocalStack.
+Postgres: Banco de dados relacional da aplicação not-so-simple-ecommerce.
+Nginx: Proxy reverso para agrupar diversas aplicações sob o mesmo domínio.
+docker-compose -f docker-compose.infra.yml up -d
+2. App Stack
+A stack da aplicação é subdividida entre workers e APIs. Para rodá-las, execute o comando:
 
-2. Faça push para a branch main ou abra um PR para acionar o workflow automaticamente.
+docker-compose -f docker-compose.workers.yml -f docker-compose.yml up -d
+Acesse a aplicação em: https://devopsnanuvem.internal:44300
 
-3. A imagem será construída e enviada para o Docker Hub com a tag `seu-username/not-so-simple-ecommerce-main:latest`.
+📌 Observação: Se a aplicação não funcionar corretamente, consulte a seção de Troubleshooting abaixo.
 
-### Para desenvolvimento local:
+3. Configuração do DNS e Certificados
+Instale o certificado root-ca.crt na loja de certificados do seu Sistema Operacional conforme instruções da aula Aula 10-Docker Compose / Nginx (Proxy Reverso) / Certificate Store do Módulo 02.
 
-Se precisar desenvolver localmente, considere usar uma VM Linux ou WSL2 com Docker Engine instalado diretamente (não Docker Desktop).
+Caso precise regerar os certificados por qualquer motivo, execute o script bash dentro da pasta cli.
 
-### Solução alternativa para problemas com MCR:
+./cli/generate-certs.sh
+📌 Observação: Atenção à senha do certificado, pois ela é utilizada na variável ASPNETCORE_KESTREL__CERTIFICATES__DEFAULT__PASSWORD no arquivo .env.
 
-Para resolver os problemas de EOF com MCR no Docker Desktop, você pode usar o Docker Engine dentro do WSL2.
+4. Testando a Aplicação
+Se tudo estiver correto, você poderá acessar as seguintes URLs da aplicação:
 
-#### Opção 1: usando Windows PowerShell ou CMD
+Frontend
+Main API
+Order API
+Identity API
+Health Checks API
+Invoice Worker API
+Notificator Worker API
+🚀 Testando o Fluxo da Aplicação
+Crie um produto.
+Crie um estoque para o produto.
+Crie uma ordem consumindo o estoque do produto.
+🗄️ Migrations
+A aplicação utiliza migrations, o que significa que ao iniciar pela primeira vez, as aplicações se conectam automaticamente ao banco de dados e criam as tabelas e dados necessários para o funcionamento correto.
 
-Execute a partir do terminal do Windows:
-```powershell
-wsl.exe -d Ubuntu -- sudo apt update && sudo apt install -y docker.io
-wsl.exe -d Ubuntu -- sudo service docker start
-```
+📌 Dica: Você pode verificar o processo conectando-se ao banco de dados e observando as tabelas geradas.
 
-Isso instala e inicia o Docker dentro da distribuição Ubuntu do WSL2.
-
-#### Opção 2: usando o shell Linux dentro do WSL
-
-Se você já estiver no terminal Ubuntu do WSL, execute diretamente:
-```bash
-sudo apt update && sudo apt install -y docker.io
-sudo service docker start
-```
-
-#### Configurar o Docker para usar o daemon do WSL2
-
-No shell Ubuntu, adicione o host do Docker ao seu perfil:
-```bash
-echo 'export DOCKER_HOST=tcp://localhost:2375' >> ~/.bashrc
-```
-
-Em seguida, recarregue o perfil ou abra um novo terminal:
-```bash
-source ~/.bashrc
-```
-
-Se `wsl.exe` não for reconhecido no PowerShell/CMD, confirme que você está usando o terminal do Windows e não o shell do Ubuntu.
-
-### Status do projeto:
-
-- ✅ Dockerfile corrigido para usar tags válidas do .NET 9.0
-- ✅ Referências de projeto corrigidas (infrastructure → infrastructure)
-- ✅ Dependências de pacotes adicionadas (Microsoft.AspNetCore.Http)
-- ✅ Workflow do GitHub Actions criado para build na nuvem
-- ✅ Build local funcionando (execute `.\build-local.bat`)

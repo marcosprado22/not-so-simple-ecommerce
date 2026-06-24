@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NotSoSimpleEcommerce.S3Handler")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a197c2a05e84f7d1abb950de3a3bdae4e7511149")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cba33371a7ab396977d5f28e43dbf1cd12d69d89")]
 [assembly: System.Reflection.AssemblyProductAttribute("NotSoSimpleEcommerce.S3Handler")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NotSoSimpleEcommerce.S3Handler")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
